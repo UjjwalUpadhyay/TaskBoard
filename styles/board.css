@@ -1,0 +1,81 @@
+#board { margin: 0; padding: 0 10px 0 10px;}
+.task-container {
+  background-color: steelblue;
+  height: 800px;
+}
+
+.board-header >ul>li> a {
+    border-radius: 4px !important;
+    background-color: lightgrey;
+    border-color: darkgrey;
+}
+
+.board-header >ul>li> .active{
+    background-color: darkgrey;
+    border-color: #000;
+}
+
+.board-header >ul>li> a:hover {
+    border-color: #000;
+}
+
+#columns {
+  margin: 20px 0 5px 0;
+  width: 80%;
+  float: left;
+}
+#columns > div { padding-left: 5px; padding-right:5px;}
+
+#new-list {
+  float: left;
+  width: 20%;
+  margin-top: 20px;
+}
+.column {
+    border: solid 1px darkgrey;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 1px 10px 0;
+}
+.columnHeader {
+  background-color: lightgrey;
+}
+.card-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 50px;
+}
+
+.noMargin { margin-bottom: 0;}
+
+.default {
+    box-shadow: inset rgba(0, 0, 0, 0.0980392) 0 1px 10px 0;
+}
+.default-color { background-color: #ffffff; }
+
+.card {
+   padding: 10px;
+}
+
+.card .row {
+  cursor: pointer;
+}
+
+.card-title {
+    color: #7c9eb2;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 2px 1px;
+    display: block;
+}
+
+.addNewCard {
+    float: right;
+    padding-right: 30px;
+    color:  green;
+}
+
+.removeCard {
+    padding: 12px;
+    color: #444;
+}
